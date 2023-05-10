@@ -14,22 +14,22 @@ namespace Ionic.Criptografia.Test
         }
 
         [Fact]
-        public async Task Criptografar()
+        public void Criptografar()
         {
             // arrange
             var mensagem = "IONIC";
             var chave = "IONIC";
 
             // act
-            var resultado = await _criptografia.CriptografarAsync(mensagem, chave);
+            var resultado = _criptografia.Criptografar(mensagem, chave);
 
             // A
             Assert.Collection(resultado.ToList(),
-               item => Assert.Equal(38, item),
-               item => Assert.Equal(49, item),
-               item => Assert.Equal(76, item),
-               item => Assert.Equal(35, item),
-               item => Assert.Equal(34, item)
+               item => Assert.Equal(48, item),
+               item => Assert.Equal(68, item),
+               item => Assert.Equal(66, item),
+               item => Assert.Equal(48, item),
+               item => Assert.Equal(26, item)
            );
         }
     }

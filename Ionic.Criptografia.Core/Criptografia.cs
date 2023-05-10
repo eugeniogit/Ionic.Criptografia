@@ -24,7 +24,7 @@
 
         private IEnumerable<int> GerarCriptografia(IEnumerable<int> resultadoMensagem, IEnumerable<int> resultadoChave)
         {
-            for (int index = 0; index < resultadoMensagem.Count() - 1; index++)
+            for (int index = 0; index < resultadoMensagem.Count(); index++)
             {
                 yield return resultadoMensagem.ElementAt(index) + resultadoChave.ElementAt(index);
             }

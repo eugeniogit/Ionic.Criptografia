@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ionic.Criptografia", "Ionic.Criptografia\Ionic.Criptografia.csproj", "{B75DE172-156F-47DE-99EA-1AC891733867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ionic.Criptografia.Core", "Ionic.Criptografia.Core\Ionic.Criptografia.Core.csproj", "{A0934E87-AAC9-43EA-83BF-B264F1F6F1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ionic.Criptografia.Test", "Ionic.Criptografia.Test\Ionic.Criptografia.Test.csproj", "{17A847A8-F1E7-45CE-8D70-EEECFF5875E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B75DE172-156F-47DE-99EA-1AC891733867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75DE172-156F-47DE-99EA-1AC891733867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75DE172-156F-47DE-99EA-1AC891733867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75DE172-156F-47DE-99EA-1AC891733867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0934E87-AAC9-43EA-83BF-B264F1F6F1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0934E87-AAC9-43EA-83BF-B264F1F6F1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0934E87-AAC9-43EA-83BF-B264F1F6F1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0934E87-AAC9-43EA-83BF-B264F1F6F1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A847A8-F1E7-45CE-8D70-EEECFF5875E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A847A8-F1E7-45CE-8D70-EEECFF5875E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A847A8-F1E7-45CE-8D70-EEECFF5875E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A847A8-F1E7-45CE-8D70-EEECFF5875E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF2F7266-0558-4FE9-B74C-7DFED057CA3F}
+	EndGlobalSection
+EndGlobal
